@@ -65,12 +65,12 @@ textarea {
 
 @media screen and (max-width: 1024) {
   .contact_container {
-    grid-template-columns: 1 fr;
     gap: 2rem;
   }
 }
 @media screen and (max-width: 600) {
   .contact_container {
+    grid-template-columns: 1fr;
     width: var(--container-width-sm);
   }
 }
