@@ -13,6 +13,7 @@
 }
 
 .about_me {
+  margin-top: 2.6rem;
   width: 100%;
   aspect-ratio: 1/1;
   background-color: aqua;
@@ -62,7 +63,7 @@
   color: var(--color-light);
 }
 .paragraphs {
-  margin: 0rem 2.6rem;
+  margin: 2.6rem 0;
 
   color: wheat;
 
