@@ -55,3 +55,5 @@ src/
 ├── main.jsx  
 ├── index.css  
 ├── index.html
+🌐 Deploying
+This project is continuously deployed to Vercel. You can also deploy manually:
