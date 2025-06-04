@@ -62,7 +62,8 @@
 }
 .about_content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: wheat;
+  background: rgb(10, 12, 45, 0.2);
 }
 @media screen and (max-width: 1024px) {
   .about_container {

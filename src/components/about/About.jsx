@@ -34,6 +34,7 @@ const About = () => {
               <small>10 personal projects completed</small>
             </article>
           </div>
+
           <p>
             I’m a passionate and detail-oriented software developer with a
             strong foundation in programming, problem-solving, and building
