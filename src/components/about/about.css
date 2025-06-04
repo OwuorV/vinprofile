@@ -3,6 +3,7 @@
   grid-template-columns: 32% 50%;
   gap: 15%;
   background: transparent;
+  margin-top: 2.6rem;
 }
 #about {
   height: auto;
@@ -13,7 +14,6 @@
 }
 
 .about_me {
-  margin-top: 2.6rem;
   width: 100%;
   aspect-ratio: 1/1;
   background-color: aqua;
