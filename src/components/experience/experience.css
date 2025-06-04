@@ -59,7 +59,8 @@
     align-items: flex-start; /* Optional: align items to left */
   }
   .experience_container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   .experience_content {
