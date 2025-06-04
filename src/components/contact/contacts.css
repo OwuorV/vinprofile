@@ -64,7 +64,7 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
-  .container > .contact_container {
+  .container_contact {
     gap: 2rem;
     grid-template-columns: 1fr;
     grid-template-columns: 1fr;
@@ -74,7 +74,7 @@ textarea {
   }
 }
 @media screen and (max-width: 600px) {
-  .container > .contact_container {
+  .container_contact {
     grid-template-columns: 1fr;
     width: 90%;
     display: flex;
