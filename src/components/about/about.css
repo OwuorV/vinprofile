@@ -69,8 +69,10 @@
   background: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 2rem;
+  flex-direction: column;
   width: 90%;
 }
 @media screen and (max-width: 1024px) {
