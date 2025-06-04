@@ -62,7 +62,7 @@
   color: var(--color-light);
 }
 .paragraphs {
-  margin: 2rem 2.6rem;
+  margin: 0rem 2.6rem;
 
   color: wheat;
 
@@ -74,7 +74,7 @@
   text-align: center;
   padding: 2rem;
   flex-direction: column;
-  width: 90%;
+  width: 50%;
 }
 @media screen and (max-width: 1024px) {
   .about_container {
@@ -94,6 +94,9 @@
 
   .about_cards {
     grid-template-columns: 1fr 1fr;
+  }
+  .paragraphs {
+    width: 90%;
   }
 }
 
