@@ -110,11 +110,11 @@ img {
   }
   section {
     height: max-content;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     gap: 2rem;
   }
   section > h2 {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 600px) {

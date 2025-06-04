@@ -13,7 +13,7 @@ header {
   position: absolute;
 }
 .cta {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -51,6 +51,7 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
   border: 1px solid var(--color-primary);
+  border-bottom: none;
 }
 .scroll_down {
   position: absolute;
