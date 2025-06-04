@@ -63,16 +63,15 @@ textarea {
   font-size: larger;
 }
 
-@media screen and (max-width: 1024) {
-  .container {
+@media screen and (max-width: 1024px) {
+  .contact_container {
     gap: 2rem;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 600) {
-  .container {
-    grid-template-columns: 100%;
-    width: 100%;
+@media screen and (max-width: 600px) {
+  .contact_container {
+    grid-template-columns: 1fr;
+    width: var(--container-width-sm);
   }
 }
