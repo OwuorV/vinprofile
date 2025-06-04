@@ -54,10 +54,10 @@ const About = () => {
               through technology.
             </p>
           </p>
+          <a href="" className="btn btn_primary">
+            Contact me
+          </a>
         </div>
-        <a href="" className="btn btn_primary">
-          Contact me
-        </a>
       </div>
     </section>
   );
