@@ -1,0 +1,128 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.footer_bg {
+  height: max-content;
+  padding: 5%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    black,
+    black,
+    var(--color-primary)
+  );
+}
+.inner_footer {
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0, 0.7) 70%,
+    rgba(255, 255, 255, 0.7) 30%
+  );
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_socials {
+  background: #fb7b1fa8;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 12rem;
+  border-bottom-left-radius: 12rem;
+  width: 50%;
+  padding: 1rem;
+}
+.myImage {
+  border-radius: 14rem;
+  overflow: hidden;
+  width: 13rem;
+  height: 13rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 4px black solid;
+}
+img {
+  height: 23rem;
+  width: 23rem;
+}
+.inforName {
+  color: rgba(70, 7, 7, 0.642);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inforName h2 {
+  font-weight: 600;
+}
+.inforName ul {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 0 2rem;
+}
+.inforName ul a {
+  background-color: black;
+  border-radius: 12rem;
+  padding: 0.2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  color: wheat;
+  margin-top: 2rem;
+}
+.footerInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerInfo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerInfo ul li {
+  display: flex;
+  gap: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .inner_footer {
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      transparent,
+      transparent,
+      rgb(0, 0, 0),
+      transparent 30%,
+
+      rgba(255, 255, 255) 30%,
+      transparent
+    );
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .footer_socials {
+    background: #fb7b1f;
+    display: flex;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    border-top-left-radius: 0rem;
+    align-items: center;
+    height: 30rem;
+    padding: 1rem;
+    width: 16rem;
+    flex-direction: column-reverse;
+  }
+}
