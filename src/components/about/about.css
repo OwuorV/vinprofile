@@ -60,7 +60,7 @@
   font-size: 0.7rem;
   color: var(--color-light);
 }
-.about_content p {
+.about_content .paragraphs {
   margin: 2rem 0 2.6rem;
   color: wheat;
   padding: 2rem;
