@@ -46,6 +46,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  justify-content: center;
 }
 input,
 textarea {
@@ -61,6 +62,7 @@ textarea {
   color: wheat;
 
   font-size: larger;
+  border-color: var(--color-primary);
 }
 
 @media screen and (max-width: 1024px) {

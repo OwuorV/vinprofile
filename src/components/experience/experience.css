@@ -38,6 +38,8 @@
 @media screen and (max-width: 1024px) {
   .experience_container {
     grid-template-columns: 1fr 1fr;
+    width: 80%;
+    padding: 0%;
   }
 
   .experience_content {
@@ -56,14 +58,15 @@
 
   .experience_details {
     flex-direction: column; /* Stack icon and text vertically */
-    align-items: flex-start; /* Optional: align items to left */
   }
   .experience_container {
+    width: 80%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
   }
 
   .experience_content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }

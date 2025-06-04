@@ -39,13 +39,18 @@ const About = () => {
             strong foundation in programming, problem-solving, and building
             efficient, scalable applications. I enjoy turning complex challenges
             into simple, elegant solutions through clean code and thoughtful
-            design. My skill set includes experience with Python, JavaScriptand
-            Java and frameworks like React, Node.js, as well as version control,
-            UX/UI Design databases, and cloud platforms. Whether collaborating
-            in a team or working independently, I’m always eager to learn new
-            technologies and improve my craft. I thrive in environments that
-            encourage innovation, continuous learning, and meaningful impact
-            through technology.
+            design.
+            <p>
+              My skill set includes experience with Python, JavaScriptand Java
+              and frameworks like React, Node.js, as well as version control,
+              UX/UI Design databases, and cloud platforms. Whether collaborating
+            </p>
+            <p>
+              in a team or working independently, I’m always eager to learn new
+              technologies and improve my craft. I thrive in environments that
+              encourage innovation, continuous learning, and meaningful impact
+              through technology.
+            </p>
           </p>
           <a href="" className="btn btn_primary">
             Contact me
