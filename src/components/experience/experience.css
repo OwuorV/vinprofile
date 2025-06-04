@@ -50,7 +50,10 @@
 
 @media screen and (max-width: 600px) {
   .experience_container > div {
-    padding: 1.5rem 0rem; /* Reduce padding on small screens */
+    padding: 1.5rem 2rem; /* Reduce padding on small screens */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .experience_details {
