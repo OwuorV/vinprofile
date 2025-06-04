@@ -20,15 +20,15 @@
 }
 
 .portfolio_item {
-  background: var(--color-primary);
+  background: transparent;
   padding: 1.2rem;
   border-radius: 1.2rem;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
 .portfolio_item:hover {
-  border-color: wheat;
+  border-color: var(--color-primary);
   background-color: transparent;
 }
 
