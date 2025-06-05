@@ -8,7 +8,7 @@ const data = [
     tar: 1,
     image: IMG,
     title: "Static Website",
-    github: "https://#",
+    github: "https://gthub.com/OwuorV/Vinprofile",
     demo: "https://keen-tapioca-7b388d.netlify.app",
   },
   {
