@@ -1,35 +1,27 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/portfolio5.png";
+import IMG from "../../assets/portfolio6.png";
 import IMG_1 from "../../assets/portfolio2.jpg";
 import IMG_2 from "../../assets/portfolio3.jpg";
-import IMG_3 from "../../assets/portfolio4.jpg";
 const data = [
   {
     tar: 1,
     image: IMG,
-    title: "some Title",
+    title: "Static Website",
     github: "https://#",
-    demo: "https://#",
+    demo: "https://keen-tapioca-7b388d.netlify.app",
   },
   {
     tar: 2,
     image: IMG_1,
-    title: "some Title",
+    title: "1681 Inventory Management",
     github: "https://#",
     demo: "https://#",
   },
   {
     tar: 3,
     image: IMG_2,
-    title: "some Title",
-    github: "https://#",
-    demo: "https://#",
-  },
-  {
-    tar: 4,
-    image: IMG_3,
-    title: "some Title",
+    title: "Dreams Farms",
     github: "https://#",
     demo: "https://#",
   },
@@ -49,7 +41,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio_cta">
                 <a href={github} className="btn">
-                  tarus
+                  GitHub
                 </a>
                 <a href={demo} className="btn btn_primary">
                   Live demo
