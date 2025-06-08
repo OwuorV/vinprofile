@@ -16,15 +16,15 @@ const data = [
     tar: 2,
     image: IMG_1,
     title: "1681 Inventory Management",
-    github: "https://github.com/OwuorV/VI-market",
-    demo: "https://vi-market.vercel.app/",
+    github: "",
+    demo: "https://",
   },
   {
     tar: 3,
     image: IMG_3,
     title: "VI Market",
-    github: "https://#",
-    demo: "https://#",
+    github: "https://github.com/OwuorV/VI-market",
+    demo: "https://vi-market.vercel.app/",
   },
 ];
 const Portfolio = () => {
