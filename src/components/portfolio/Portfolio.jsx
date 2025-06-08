@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG from "../../assets/portfolio1.jpg";
 import IMG_1 from "../../assets/portfolio2.jpg";
 import IMG_2 from "../../assets/portfolio3.jpg";
+import IMG_3 from "../../assets/VIsitethumbnail.png";
 const data = [
   {
     tar: 1,
@@ -15,13 +16,13 @@ const data = [
     tar: 2,
     image: IMG_1,
     title: "1681 Inventory Management",
-    github: "https://#",
-    demo: "https://#",
+    github: "https://github.com/OwuorV/VI-market",
+    demo: "https://vi-market.vercel.app/",
   },
   {
     tar: 3,
-    image: IMG_2,
-    title: "Dreams Farms",
+    image: IMG_3,
+    title: "VI Market",
     github: "https://#",
     demo: "https://#",
   },
